@@ -34,6 +34,27 @@
   background-color: #000F48;
 }
 
+.login .modal-body h5 {
+  color: black;
+  font-weight: bold;
+}
+
+.login .modal-body span {
+  color: #FFC806;
+}
+
+.login p span {
+  color: #FFC806;
+}
+
+.login .modal-footer button {
+  width: 170px;
+  height: 55px;
+  border-radius: 0;
+  color: #FFC806;
+  background-color: #000F48;
+}
+
 .bg-web {
   position: relative;
 }
