@@ -22,9 +22,6 @@
 
 .navbar .d-flex .btn-login:hover {
   background-color: #FFC806;
-}
-
-.navbar .d-flex a:hover {
   color: white;
 }
 
@@ -32,6 +29,10 @@
   border-radius: 0;
   color: #FFC806;
   background-color: #000F48;
+}
+
+.navbar .d-flex .daftar:hover {
+  color: white;
 }
 
 .login .modal-body h5 {
@@ -53,6 +54,27 @@
   border-radius: 0;
   color: #FFC806;
   background-color: #000F48;
+}
+
+.daftar .modal-body h5 {
+  color: black;
+  font-weight: bold;
+}
+
+.daftar p span {
+  color: #FFC806;
+}
+
+.daftar .modal-footer button {
+  width: 170px;
+  height: 55px;
+  border-radius: 0;
+  color: #FFC806;
+  background-color: #000F48;
+}
+
+.daftar select {
+  height: 50px;
 }
 
 .bg-web {
@@ -99,6 +121,15 @@
 .kategori-1 h2 {
   font-weight: bold;
   color: #000F48;
+}
+
+.kategori-1 .card-body h5 {
+  color: #3D445C;
+  font-weight: bold;
+}
+
+.kategori-1 .card-body p {
+  color: #858EAD;
 }
 
 @media screen and (min-width: 426px) {
@@ -518,5 +549,76 @@
 
 .detail .btn:hover {
   background-color: #FFC806;
+}
+
+.verif-email h2 {
+  font-style: italic;
+  color: #4F4F4F;
+}
+
+.verif-email p .code {
+  font-weight: bold;
+}
+
+.verif-email p .verif {
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.verif-email .btn-verif {
+  background-color: #FFC806;
+  color: white;
+  font-weight: bolder;
+  width: 50%;
+  height: 50px;
+}
+
+.profile .btn-pilih {
+  border: 0;
+  width: 100%;
+  background-color: #000F48;
+  color: #FFC806;
+  height: 60px;
+}
+
+.profile p {
+  font-family: 'Poppins';
+  font-size: small;
+}
+
+.profile h5 {
+  font-weight: bold;
+}
+
+.profile .btn-profil {
+  background-color: #000F48;
+  color: #FFC806;
+  border: 0;
+  height: 60px;
+}
+
+.profile .input-icon input {
+  border: 0;
+  border: 1px solid rgba(1, 41, 112, 0.2);
+  padding: 7px 38px 7px 8px;
+  border-radius: 3px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.profile .input-icon button {
+  border: 0;
+  padding: 0;
+  margin-left: -30px;
+  background: none;
+}
+
+.profile .input-icon i {
+  color: #000F48;
+}
+
+.profile select {
+  height: 50px;
 }
 /*# sourceMappingURL=style.css.map */
