@@ -1,5 +1,5 @@
 *{
-    font-family: 'Work-Sans';
+    font-family: 'Work Sans';
 }
 
 //navbar
@@ -680,3 +680,53 @@
     
 }
 // <--------------- END-PROFILE --------------->
+
+// <--------------- PESANAN --------------->
+.pesanan{
+    .icon{
+        height: 80px;
+    }
+    .judul{
+        font-weight: bold;
+        color: #000F48;
+    }
+    .text-start{
+        h1{
+            font-weight: bold;
+            color: #000F48;
+        }
+    }
+    .diskusi{
+        img{
+            width: 25%;
+        }
+        h3{
+            font-weight: bolder;
+            font-family:'Poppins';
+            
+        }
+        p{
+            color: #000F48;
+        }
+        .btn-chat{
+            background-color: #000F48;
+            width: 25%;
+            .btn{
+                color: #FFC806;
+            }
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+    .pesanan {
+        .diskusi{
+            img{
+                width: 50%;
+            }
+            .btn-chat{
+                width: 50%;
+            }
+        }
+    }
+}
+// <--------------- END-PESANAN --------------->

@@ -1,5 +1,5 @@
 * {
-  font-family: 'Work-Sans';
+  font-family: 'Work Sans';
 }
 
 .navbar a .img-fluid {
@@ -620,5 +620,50 @@
 
 .profile select {
   height: 50px;
+}
+
+.pesanan .icon {
+  height: 80px;
+}
+
+.pesanan .judul {
+  font-weight: bold;
+  color: #000F48;
+}
+
+.pesanan .text-start h1 {
+  font-weight: bold;
+  color: #000F48;
+}
+
+.pesanan .diskusi img {
+  width: 25%;
+}
+
+.pesanan .diskusi h3 {
+  font-weight: bolder;
+  font-family: 'Poppins';
+}
+
+.pesanan .diskusi p {
+  color: #000F48;
+}
+
+.pesanan .diskusi .btn-chat {
+  background-color: #000F48;
+  width: 25%;
+}
+
+.pesanan .diskusi .btn-chat .btn {
+  color: #FFC806;
+}
+
+@media screen and (max-width: 425px) {
+  .pesanan .diskusi img {
+    width: 50%;
+  }
+  .pesanan .diskusi .btn-chat {
+    width: 50%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
