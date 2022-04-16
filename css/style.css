@@ -698,11 +698,34 @@
   border-radius: 0;
 }
 
-.cart .text-start h6 {
+.cart .detail h6 {
   font-weight: bold;
 }
 
-.cart .img-fluid {
-  width: 25%;
+.cart .detail p {
+  font-size: 14px;
+}
+
+.cart .detail .pindah p {
+  font-size: 12px;
+}
+
+.cart .detail .pindah .garis_vertikal {
+  border-left: 1.5px #b8b2b2 solid;
+  height: 20px;
+  width: 0px;
+}
+
+.cart .detail .pindah i {
+  color: #b8b2b2;
+}
+
+.cart .detail .pindah input {
+  font-size: 14px;
+  border: 1px solid rgba(1, 41, 112, 0.2);
+  padding: 7px -10px 7px 20px;
+  border-radius: 3px;
+  width: 13%;
+  height: 25px;
 }
 /*# sourceMappingURL=style.css.map */

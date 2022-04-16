@@ -758,13 +758,34 @@
         border: none;
         border-radius: 0;
     }
-    .text-start{
+    .detail{
         h6{
             font-weight: bold;
         }
-    }
-    .img-fluid{
-        width: 25%;
+        p{
+            font-size: 14px;
+        }
+        .pindah{
+            p{
+                font-size: 12px;
+            }
+            .garis_vertikal{
+                border-left: 1.5px #b8b2b2 solid;
+                height: 20px;
+                width: 0px;
+            }
+            i{
+                color: #b8b2b2;
+            }
+            input{
+                font-size: 14px;
+                border: 1px solid rgba(1, 41, 112, 0.2);
+                padding: 7px -10px 7px 20px;
+                border-radius: 3px;
+                width: 13%;
+                height: 25px;
+            }
+        }
     }
 }
 // <--------------- END-CART --------------->
