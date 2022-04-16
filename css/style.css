@@ -666,4 +666,43 @@
     width: 50%;
   }
 }
+
+.cart h2 {
+  font-weight: bold;
+}
+
+.cart .all {
+  color: #817e7e;
+}
+
+.cart .del {
+  color: #f84f4f;
+  font-weight: bolder;
+}
+
+.cart .line {
+  border-bottom: 4px solid #817e7e;
+  margin-top: -2px;
+}
+
+.cart .h5 {
+  font-weight: bolder;
+}
+
+.cart .tambah {
+  color: #FFC806 !important;
+  display: block;
+  font-size: 16px;
+  background: #000F48 !important;
+  border: none;
+  border-radius: 0;
+}
+
+.cart .text-start h6 {
+  font-weight: bold;
+}
+
+.cart .img-fluid {
+  width: 25%;
+}
 /*# sourceMappingURL=style.css.map */

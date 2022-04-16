@@ -732,5 +732,39 @@
 // <--------------- END-PESANAN --------------->
 
 // <--------------- CART --------------->
-.cart{}
+.cart{
+    h2{
+        font-weight: bold;
+    }
+    .all{
+        color: #817e7e;
+    }
+    .del{
+        color: rgb(248, 79, 79);
+        font-weight: bolder;
+    }
+    .line{
+        border-bottom: 4px solid #817e7e;
+        margin-top: -2px;
+    }
+    .h5{
+        font-weight: bolder;
+    }
+    .tambah{
+        color: #FFC806 !important;
+        display: block;
+        font-size: 16px;
+        background: #000F48 !important;
+        border: none;
+        border-radius: 0;
+    }
+    .text-start{
+        h6{
+            font-weight: bold;
+        }
+    }
+    .img-fluid{
+        width: 25%;
+    }
+}
 // <--------------- END-CART --------------->
