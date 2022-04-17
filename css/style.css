@@ -685,17 +685,8 @@
   margin-top: -2px;
 }
 
-.cart .h5 {
-  font-weight: bolder;
-}
-
-.cart .tambah {
-  color: #FFC806 !important;
-  display: block;
-  font-size: 16px;
-  background: #000F48 !important;
-  border: none;
-  border-radius: 0;
+.cart img {
+  width: 100%;
 }
 
 .cart .detail h6 {
@@ -708,6 +699,8 @@
 
 .cart .detail .pindah p {
   font-size: 12px;
+  -webkit-margin-start: auto;
+          margin-inline-start: auto;
 }
 
 .cart .detail .pindah .garis_vertikal {
@@ -727,5 +720,43 @@
   border-radius: 3px;
   width: 13%;
   height: 25px;
+}
+
+.cart .h5 {
+  font-weight: bolder;
+}
+
+.cart .tambah {
+  color: #FFC806 !important;
+  display: block;
+  font-size: 16px;
+  background: #000F48 !important;
+  border: none;
+  border-radius: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .cart .detail {
+    margin-top: -10px;
+    margin-bottom: 15px;
+  }
+  .cart .detail h6 {
+    -webkit-margin-start: 23px;
+            margin-inline-start: 23px;
+  }
+  .cart .detail p {
+    -webkit-margin-start: 23px;
+            margin-inline-start: 23px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .cart img {
+    width: 75%;
+  }
+  .cart .detail .pindah p {
+    -webkit-margin-start: 23px;
+            margin-inline-start: 23px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

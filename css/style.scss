@@ -747,16 +747,8 @@
         border-bottom: 4px solid #817e7e;
         margin-top: -2px;
     }
-    .h5{
-        font-weight: bolder;
-    }
-    .tambah{
-        color: #FFC806 !important;
-        display: block;
-        font-size: 16px;
-        background: #000F48 !important;
-        border: none;
-        border-radius: 0;
+    img{
+        width: 100%;
     }
     .detail{
         h6{
@@ -768,6 +760,7 @@
         .pindah{
             p{
                 font-size: 12px;
+                margin-inline-start: auto;
             }
             .garis_vertikal{
                 border-left: 1.5px #b8b2b2 solid;
@@ -784,6 +777,43 @@
                 border-radius: 3px;
                 width: 13%;
                 height: 25px;
+            }
+        }
+    }
+    .h5{
+        font-weight: bolder;
+    }
+    .tambah{
+        color: #FFC806 !important;
+        display: block;
+        font-size: 16px;
+        background: #000F48 !important;
+        border: none;
+        border-radius: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .cart{
+        .detail{
+            margin-top: -10px;
+            margin-bottom: 15px;
+            h6{
+                margin-inline-start: 23px;
+            }
+            p{
+                margin-inline-start: 23px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 445px) {
+    .cart{
+        img{
+            width: 75%;
+        }
+        .detail{
+            .pindah{
+                p{margin-inline-start: 23px;}
             }
         }
     }
