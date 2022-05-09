@@ -14,51 +14,34 @@
   color: #000F48;
 }
 
-.navbar .d-flex .btn-login {
+.navbar .d-flex .btn-daftar {
   border-radius: 0;
   color: #000F48;
   border-color: #000F48;
 }
 
-.navbar .d-flex .btn-login:hover {
+.navbar .d-flex .btn-daftar:hover {
   background-color: #FFC806;
   color: white;
 }
 
-.navbar .d-flex .daftar {
+.navbar .d-flex .login {
   border-radius: 0;
   color: #FFC806;
   background-color: #000F48;
 }
 
-.navbar .d-flex .daftar:hover {
+.navbar .d-flex .login:hover {
   color: white;
-}
-
-.login .modal-body h5 {
-  color: black;
-  font-weight: bold;
-}
-
-.login .modal-body span {
-  color: #FFC806;
-}
-
-.login p span {
-  color: #FFC806;
-}
-
-.login .modal-footer button {
-  width: 170px;
-  height: 55px;
-  border-radius: 0;
-  color: #FFC806;
-  background-color: #000F48;
 }
 
 .daftar .modal-body h5 {
   color: black;
   font-weight: bold;
+}
+
+.daftar .modal-body span {
+  color: #FFC806;
 }
 
 .daftar p span {
@@ -73,7 +56,24 @@
   background-color: #000F48;
 }
 
-.daftar select {
+.login .modal-body h5 {
+  color: black;
+  font-weight: bold;
+}
+
+.login p span {
+  color: #FFC806;
+}
+
+.login .modal-footer button {
+  width: 170px;
+  height: 55px;
+  border-radius: 0;
+  color: #FFC806;
+  background-color: #000F48;
+}
+
+.login select {
   height: 50px;
 }
 
@@ -87,15 +87,14 @@
 
 .bg-web h1 {
   position: absolute;
-  color: #33334f;
-  font-weight: 600;
+  color: white;
+  font-weight: bold;
   font-size: 5.5vw;
 }
 
 @media screen and (min-width: 769px) {
   .bg-web h1 {
-    left: 170px;
-    top: 230px;
+    top: 210px;
   }
 }
 
@@ -114,22 +113,22 @@
   }
 }
 
-.kategori-1 {
+.service-1 {
   position: relative;
-  background-image: url(../Asset/reasons.png);
+  background-image: url(../Asset/newservices.png);
 }
 
-.kategori-1 h2 {
+.service-1 h2 {
   font-weight: bold;
-  color: #000F48;
+  color: white;
 }
 
-.kategori-1 .card-body h5 {
+.service-1 .card-body h5 {
   color: #3D445C;
   font-weight: bold;
 }
 
-.kategori-1 .card-body p {
+.service-1 .card-body p {
   color: #858EAD;
 }
 
@@ -149,6 +148,25 @@
   }
 }
 
+.produk-area .jud {
+  font-weight: bold;
+  color: #000F48;
+}
+
+.produk-area .latest_product_inner .card-body {
+  background-color: #000F48;
+}
+
+.produk-area .latest_product_inner .card-body h4 {
+  font-weight: bold;
+  color: white;
+}
+
+.produk-area .latest_product_inner .card-body p {
+  font-size: 18px;
+  color: white;
+}
+
 .about .bg-2 {
   position: absolute;
 }
@@ -159,7 +177,7 @@
   font-weight: bolder;
   font-size: 3vw;
   left: 800px;
-  top: 1220px;
+  top: 1420px;
 }
 
 .about p {
@@ -168,14 +186,14 @@
   font-size: 1.5vw;
   left: 800px;
   right: 260px;
-  top: 1300px;
+  top: 1500px;
 }
 
 .about .btn-about {
   position: absolute;
   background-color: #FFC806;
   left: 800px;
-  top: 1620px;
+  top: 1820px;
 }
 
 .about .btn-about .btn {
@@ -187,32 +205,32 @@
 @media screen and (max-width: 1440px) {
   .about h3 {
     left: 780px;
-    top: 1210px;
+    top: 1410px;
   }
   .about p {
     left: 780px;
     right: 240px;
-    top: 1290px;
+    top: 1490px;
   }
   .about .btn-about {
     left: 780px;
-    top: 1600px;
+    top: 1800px;
   }
 }
 
 @media screen and (max-width: 1399px) {
   .about h3 {
     left: 830px;
-    top: 1170px;
+    top: 2115px;
   }
   .about p {
     left: 830px;
-    right: 150px;
-    top: 1250px;
+    right: 130px;
+    top: 2190px;
   }
   .about .btn-about {
     left: 830px;
-    top: 1580px;
+    top: 2500px;
   }
 }
 
@@ -372,12 +390,12 @@
 
 .mitra {
   position: relative;
-  background-image: url(../Asset/services.png);
+  background-image: url(../Asset/newmitra.png);
 }
 
 .mitra h2 {
   font-weight: bold;
-  color: #000F48;
+  color: white;
 }
 
 .mitra .card-mitra {
@@ -406,24 +424,6 @@
   .mitra .no {
     display: none !important;
   }
-}
-
-.produk-area .jud {
-  font-weight: bold;
-  color: #000F48;
-}
-
-.produk-area .latest_product_inner .card-body {
-  background-color: #FFC806;
-}
-
-.produk-area .latest_product_inner .card-body h4 {
-  font-weight: bold;
-  color: #000F48;
-}
-
-.produk-area .latest_product_inner .card-body p {
-  font-size: 18px;
 }
 
 .blank h3 {
