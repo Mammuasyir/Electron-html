@@ -1085,4 +1085,20 @@
             margin-inline-start: 23px;
   }
 }
+
+.mitra-profile h2 {
+  font-weight: bold;
+}
+
+.mitra-profile h6 {
+  font-weight: bolder;
+}
+
+.mitra-profile .standar {
+  line-height: 5px;
+}
+
+.mitra-profile .extra {
+  line-height: 15px;
+}
 /*# sourceMappingURL=style.css.map */
