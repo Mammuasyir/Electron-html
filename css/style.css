@@ -1119,14 +1119,15 @@
   line-height: 15px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .mitra-profile .bg-profile .d-flex {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
   .mitra-profile .bg-profile .d-flex h1 {
-    font-size: 40px;
+    font-size: 35px;
+    padding-bottom: 4px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="Asset/logo.png" type="image/x-icon">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="uicons/css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
+
+    <!-- Bootstrap CSS -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Farsan&family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <title>ELECTRON</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="/" aria-current="page"> <img class="img-fluid" src="Asset/logo.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item ms-3">
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown ms-3">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                PRODUCT
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex">
+                        <ul class="navbar-nav me-auto mb-lg-0">
+                            <a class="nav-link active ms-3" aria-current="page" href="#"><i
+                                    class="fi fi-rr-search"></i></a>
+
+                            <a class="nav-link active ms-3" aria-current="page" href="#"><i
+                                    class="fi fi-rr-shopping-cart"></i></a>
+
+                            <li class="nav-item dropdown ms-3">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Handoko
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">profile</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#" onclick="event.preventDefault();
+                                    document.getElementById('logout-form').submit();">
+                                            Logout
+                                        </a>
+                                        <form id="logout-form" action="#" method="POST" class="d-none">
+
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End Navbar -->
+
+    <div class="content_area">
+        <!-- Profile Haleyora -->
+        <div class="mitra-profile mt-4 pt-4 mb-5 pb-5">
+            <div class="bg-profile">
+                <img src="Asset/profile-hayelora.png" class="img-fluid w-100" alt="Logo">
+                <div class="container d-flex">
+                    <h1 class="pb-5">Tentang Haleyora
+                    </h1>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <h2 class="mb-5">Profil Perusahaan</h2>
+
+                <h6 class="standar">Visi</h6>
+                <p class="mb-5">Menjadi Perusahaan Listrik Terkemuka se-Asia Tenggara dan #1 Pilihan Pelanggan
+                    untuk Solusi Energi.
+                </p>
+
+                <h6 class="standar">Misi</h6>
+                <div class="extra mb-5">
+                    <p>Menjalankan bisnis kelistrikan dan bidang lain yang terkait, berorientasi pada kepuasan
+                        pelanggan,
+                        anggota perusahaan dan pemegang saham.</p>
+                    <p> Menjadikan tenaga listrik sebagai media untuk meningkatkan kualitas kehidupan masyarakat.</p>
+                    <p>Mengupayakan agar tenaga listrik menjadi pendorong kegiatan ekonomi.</p>
+                    <p> Menjalankan kegiatan usaha yang berwawasan lingkungan.</p>
+                </div>
+
+                <h6>Moto</h6>
+                <p class="standar mb-5">Listrik untuk Kehidupan yang Lebih Baik.
+                </p>
+
+                <h6 class="standar">Maksud dan Tujuan Perseroan</h6>
+                <p class="mb-5">Untuk menyelenggarakan usaha penyediaan tenaga listrik bagi kepentingan umum dalam
+                    jumlah dan mutu
+                    yang memadai serta memupuk keuntungan dan melaksanakan penugasan Pemerintah di bidang
+                    ketenagalistrikan dalam rangka menunjang pembangunan dengan menerapkan prinsip-prinsip Perseroan
+                    Terbatas.
+                </p>
+
+                <h6 class="standar">Riwayat Singkat PLN</h6>
+                <p class="mb-5">Berawal di akhir abad 19, bidang pabrik gula dan pabrik ketenagalistrikan di Indonesia
+                    mulai
+                    ditingkatkan saat beberapa perusahaan asal Belanda yang bergerak di bidang pabrik gula dan pebrik
+                    teh mendirikan pembangkit tenaga lisrik untuk keperluan sendiri
+
+                    Antara tahun 1942-1945 terjadi peralihan pengelolaan perusahaan-perusahaan Belanda tersebut oleh
+                    Jepang, setelah Belanda menyerah kepada pasukan tentara Jepang di awal Perang Dunia II
+
+                    Proses peralihan kekuasaan kembali terjadi di akhir Perang Dunia II pada Agustus 1945, saat Jepang
+                    menyerah kepada Sekutu. Kesempatan ini dimanfaatkan oleh para pemuda dan buruh listrik melalui
+                    delagasi Buruh/Pegawai Listrik dan Gas yang bersama-sama dengan Pemimpin KNI Pusat berinisiatif
+                    menghadap Presiden Soekarno untuk menyerahkan perusahaan-perusahaan tersebut kepada Pemerintah
+                    Republik Indonesia. Pada 27 Oktober 1945, Presiden Soekarno membentuk Jawatan Listrik dan Gas di
+                    bawah Departemen Pekerjaan Umum dan Tenaga dengan kapasitas pembangkit tenaga listrik sebesar 157,5
+                    MW.
+
+                    Pada tanggal 1 januari 1961, Jawatan Listrik dan Gas diubah menjadi BPU-PLN (Bada Pemimpin Umum
+                    Perusahaan Listrik Negara) yang bergerak di bidang listrik, gas dan kokas yang dibubarkan pada
+                    tanggal 1 Januari 1965. Pada saat yang sama, 2 (dua) perusahaan negara yaitu Perusahaan Listrik
+                    Negara (PLN) sebagai pengelola tenaga listrik milik negara dan Perusahaan Gas Negara (PGN) sebagai
+                    pengelola gas diresmikan.
+
+                    Pada tahun 1972, sesuai dengan Peraturan Pemerintah No. 18, status Perusahaan Listrik Negara (PLN)
+                    ditetapkan sebagai Perusahaan Umum Listrik Negara dan sebagai Pemegang Kuasa Usaha Ketenagalistrikan
+                    (PKUK) dengan tugas menyediakan tenaga listrik bagi kepentingan umum.
+
+                    Seiring dengan kebijakan Pemerintah yang memberikan kesempatan kepada sektor swasta untuk bergerak
+                    dalam bisnis penyediaan listrik, maka sejak tahun 1994 status PLN beralih dari Perusahaan Umum
+                    menjadi Perusahaan Perseroan (Persero) dan juga sebagai PKUK dalam menyediakan listrik bagi
+                    kepentingan umum hingga sekarang
+                </p>
+
+
+                <h6 class="standar">Tata Nilai PLN</h6>
+                <div class="mb-4">
+                    Tata Nilai PLN adalah AKHLAK. AKHLAK merupakan akronim dari:</div>
+                <div class="standar extra">
+                    <p>AMANAH : Memegang teguh kepercayaan yang diberikan</p>
+                    <p>KOMPETEN : Terus belajar dan mengembangkan kapabilitas</p>
+                    <p>HARMONIS : Saling peduli dan menghargai perbedaan</p>
+                    <p>LOYAL : Berdedikasi dan mengutamakan kepentingan bangsa dan negara</p>
+                    <p>ADAPTIF : Terus berinovasi dan antusias dalam menggerakkan ataupun menghadapi perubahan</p>
+                    <p>KOLABORATIF : Membangun kerjasama yang sinergis</p>
+                </div>
+
+                <h6 class="mt-5">Alamat</h6>
+                <p><span style="font-weight: bold;">PT PLN (Persero) Kantor Pusat Jalan Trunojoyo Blok M</span> – I No
+                    135 Kebayoran Baru, Jakarta 12160,
+                    Indonesia Telp : 021 – 7251234, 7261122 fax : 021 – 7221330</p>
+
+            </div>
+        </div>
+        <!-- end Profile Haleyora -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-03 mt-5">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12 mb-md-0 mb-4">
+                            <div class="d-flex justify-content-start">
+                                <h2 class="footer-heading">ADDRESS: </h2> <span>&nbsp;6391 Elgin St. Celina, Delaware
+                                    10299</span>
+                            </div>
+                            <div class="d-flex justify-content-start">
+                                <h2 class="footer-heading">PHONE: </h2>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+84 1102 2703</span>
+                            </div>
+                            <div class="d-flex justify-content-start">
+                                <h2 class="footer-heading">EMAIL: </h2>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hello@electron.com</span>
+                            </div>
+                            <a href="/" aria-current="page"> <img class="img-fluid" src="Asset/logo.png"
+                                    style="width: 140px;"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="row justify-content-end">
+                        <div class="col-md-12 col-lg-11 mb-md-0 mb-4">
+                            <h2 class="footer-heading">Newsletter:</h2>
+                            <form action="#" class="subscribe-form">
+                                <div class="form-group d-flex">
+                                    <input type="text" class="form-control rounded-left" placeholder="Your email here">
+                                    <input type="submit" value="Subscribe"
+                                        class="form-control submit ms-3 rounded-right">
+                                </div>
+                            </form>
+                            <h2 class="footer-heading mt-5">Social:</h2>
+                            <ul class="ftco-footer-social p-0">
+                                <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
+                                        title="Twitter"><span class="fi fi-brands-twitter"></span></a></li>
+                                <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
+                                        title="Facebook"><span class="fi fi-brands-facebook"></span></a></li>
+                                <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
+                                        title="Instagram"><i class="fi fi-brands-instagram"></i></a></li>
+                                <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
+                                        title="Linkedin"><i class="fi fi-brands-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-100 mt-5 border-top py-2" style="background-color: #000F48;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-8">
+                        <p class="copy" style="color: white;">
+                            Electron Company &copy;<script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="http://electron-pln.com/ecommerce/js/jquery-3.2.1.min.js"></script>
+    <script src="http://electron-pln.com/ecommerce/js/popper.js"></script>
+    <script src="http://electron-pln.com/ecommerce/js/bootstrap.min.js"></script>
+    <script src="http://electron-pln.com/ecommerce/js/stellar.js"></script>
+    <script src="http://electron-pln.com/ecommerce/vendors/lightbox/simpleLightbox.min.js"></script>
+    <script src="http://electron-pln.com/ecommerce/vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="http://electron-pln.com/ecommerce/vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="http://electron-pln.com/ecommerce/vendors/isotope/isotope-min.js"></script>
+    <script src="http://electron-pln.com/ecommerce/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="http://electron-pln.com/ecommerce/js/jquery.ajaxchimp.min.js"></script>
+    <script src="http://electron-pln.com/ecommerce/vendors/counter-up/jquery.waypoints.min.js"></script>
+    <script src="http://electron-pln.com/ecommerce/vendors/flipclock/timer.js"></script>
+    <script src="http://electron-pln.com/ecommerce/vendors/counter-up/jquery.counterup.js"></script>
+    <script src="http://electron-pln.com/ecommerce/js/mail-script.js"></script>
+    <script src="http://electron-pln.com/ecommerce/js/theme.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+</body>
+
+</html>

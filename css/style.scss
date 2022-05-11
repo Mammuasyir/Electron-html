@@ -1200,13 +1200,14 @@
         line-height: 15px;
     }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
     .mitra-profile{
         .bg-profile{
         .d-flex{
             justify-content: center;
             h1{
-                font-size: 40px;
+                font-size: 35px;
+                padding-bottom: 4px;
                 }
             }
         }
