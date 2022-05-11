@@ -830,6 +830,7 @@
     }
     p{
         color: #000F48;
+        font-size: 20px;
     }
     .btn-blank{
         background-color: #000F48;
@@ -891,11 +892,16 @@
     }
     .pro{
         .card-body{
-            background-color: #FFC806;
+            background-color: #000F48;
             h6{
-                color: #000F48;
+                color: white;
                 font-weight: bold;
+                font-size: 17px;
             }
+            p{
+                color: white;
+                font-size: 14px;
+                }
         }
     }
     .widgets_inner{

@@ -759,6 +759,7 @@
 
 .blank p {
   color: #000F48;
+  font-size: 20px;
 }
 
 .blank .btn-blank {
@@ -817,12 +818,18 @@
 }
 
 .all .pro .card-body {
-  background-color: #FFC806;
+  background-color: #000F48;
 }
 
 .all .pro .card-body h6 {
-  color: #000F48;
+  color: white;
   font-weight: bold;
+  font-size: 17px;
+}
+
+.all .pro .card-body p {
+  color: white;
+  font-size: 14px;
 }
 
 .all .widgets_inner ul li {

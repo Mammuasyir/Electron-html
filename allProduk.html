@@ -42,38 +42,63 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
             <div class="container">
-                <a href="/" aria-current="page"> <img class="img-fluid" src="Asset/logo.png"></a>
+                <a class="navbar-brand" href="/" aria-current="page"> <img class="img-fluid" src="Asset/logo.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
-                        <li class="nav-item">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item ms-3">
                             <a class="nav-link active" aria-current="page" href="#">HOME</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown ms-3">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 PRODUCT
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li>
-
+                                    <a class="nav-link active" aria-current="page" href="#">ICT Solution</a>
                                 </li>
-
+                                <li>
+                                    <a class="nav-link active" aria-current="page" href="#">Electric City Solution</a>
+                                </li>
                             </ul>
                         </li>
                     </ul>
 
                     <div class="d-flex">
-                        <a class="nav-link active" aria-current="page" href="#"><i class="fi fi-rr-search"></i></a>
-                        <a class="nav-link active" aria-current="page" href="#"><i
-                                class="fi fi-rr-shopping-cart"></i></a>
-                        <a href="#" class="btn btn-login me-2" type="submit">Sign In</a>
-                        <a href="#" class="btn daftar" type="submit">Sign Up</a>
+                        <ul class="navbar-nav me-auto mb-lg-0">
+                            <a class="nav-link active ms-3" aria-current="page" href="#"><i class="fi fi-rr-search"></i></a>
+
+                            <a class="nav-link active ms-3" aria-current="page" href="#"><i
+                                    class="fi fi-rr-shopping-cart"></i></a>
+
+                            <li class="nav-item dropdown ms-3">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Handoko
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Dashboard</a></li>
+                                <li><a class="dropdown-item" href="pesanan.html">Pesanan</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="#" onclick="event.preventDefault();
+                                    document.getElementById('logout-form').submit();">
+                                            Logout
+                                        </a>
+                                        <form id="logout-form" action="#" method="POST" class="d-none">
+
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
+
                 </div>
             </div>
         </nav>
@@ -114,6 +139,69 @@
                             </div>
                         </div>
 
+                        <div class="col col-lg-3 col-md-6 py-2 px-2">
+                            <div class="card pro">
+                                <img src="Asset/produk1.png" class="card-img-top" alt="...">
+                                <div class="card-body py-2">
+                                    <h6 class="card-title">Penjualan Tenaga Listrik</h6>
+                                    <p class="card-text">Some quick example text to build on</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-lg-3 col-md-6 py-2 px-2">
+                            <div class="card pro">
+                                <img src="Asset/produk1.png" class="card-img-top" alt="...">
+                                <div class="card-body py-2">
+                                    <h6 class="card-title">Penjualan Tenaga Listrik</h6>
+                                    <p class="card-text">Some quick example text to build on</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-lg-3 col-md-6 py-2 px-2">
+                            <div class="card pro">
+                                <img src="Asset/produk1.png" class="card-img-top" alt="...">
+                                <div class="card-body py-2">
+                                    <h6 class="card-title">Penjualan Tenaga Listrik</h6>
+                                    <p class="card-text">Some quick example text to build on</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-lg-3 col-md-6 py-2 px-2">
+                            <div class="card pro">
+                                <img src="Asset/produk1.png" class="card-img-top" alt="...">
+                                <div class="card-body py-2">
+                                    <h6 class="card-title">Penjualan Tenaga Listrik</h6>
+                                    <p class="card-text">Some quick example text to build on</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-lg-3 col-md-6 py-2 px-2">
+                            <div class="card pro">
+                                <img src="Asset/produk1.png" class="card-img-top" alt="...">
+                                <div class="card-body py-2">
+                                    <h6 class="card-title">Penjualan Tenaga Listrik</h6>
+                                    <p class="card-text">Some quick example text to build on</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-lg-3 col-md-6 py-2 px-2">
+                            <div class="card pro">
+                                <img src="Asset/produk1.png" class="card-img-top" alt="...">
+                                <div class="card-body py-2">
+                                    <h6 class="card-title">Penjualan Tenaga Listrik</h6>
+                                    <p class="card-text">Some quick example text to build on</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-lg-3 col-md-6 py-2 px-2">
+                            <div class="card pro">
+                                <img src="Asset/produk1.png" class="card-img-top" alt="...">
+                                <div class="card-body py-2">
+                                    <h6 class="card-title">Penjualan Tenaga Listrik</h6>
+                                    <p class="card-text">Some quick example text to build on</p>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col col-lg-3 col-md-6 py-2 px-2">
                             <div class="card pro">
                                 <img src="Asset/produk1.png" class="card-img-top" alt="...">
@@ -237,9 +325,9 @@
 
 
                 <!-- Pagination -->
-                <div class="row mt-3 mb-5">
+                <div class="row mt-4 mb-5">
                     <nav>
-                        <ul class="pagination d-flex justify-content-end">
+                        <ul class="pagination d-flex justify-content-center">
                             <li class="page-item disabled" aria-disabled="true" aria-label="&laquo; Previous">
                                 <span class="page-link" aria-hidden="true">&lsaquo;</span>
                             </li>
@@ -262,25 +350,23 @@
 
 
     <!-- Footer -->
-    <footer class="footer-03 mt-5">
+    <footer class="footer-03 mt-5 pt-2">
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-7">
                     <div class="row">
                         <div class="col-md-12 col-lg-12 mb-md-0 mb-4">
                             <div class="d-flex justify-content-start">
-                                <h2 class="footer-heading">ADDRESS: </h2> <span
-                                    style="font-family: 'Times New Roman', Times, serif;">&nbsp;6391 Elgin St. Celina,
-                                    Delaware 10299</span>
+                                <h2 class="footer-heading">ADDRESS: </h2> <span>&nbsp;6391 Elgin St. Celina, Delaware
+                                    10299</span>
                             </div>
                             <div class="d-flex justify-content-start">
-                                <h2 class="footer-heading">PHONE: </h2> <span
-                                    style="font-family: 'Times New Roman', Times, serif;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+84
-                                    1102 2703</span>
+                                <h2 class="footer-heading">PHONE: </h2>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+84 1102 2703</span>
                             </div>
                             <div class="d-flex justify-content-start">
-                                <h2 class="footer-heading">EMAIL: </h2> <span
-                                    style="font-family: 'Times New Roman', Times, serif;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hello@electron.com</span>
+                                <h2 class="footer-heading">EMAIL: </h2>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hello@electron.com</span>
                             </div>
                             <a href="/" aria-current="page"> <img class="img-fluid" src="Asset/logo.png"
                                     style="width: 140px;"></a>
@@ -289,8 +375,8 @@
                 </div>
                 <div class="col-md-5">
                     <div class="row justify-content-end">
-                        <div class="col-md-12 col-lg-11 mb-md-0 mb-4">
-                            <h2 class="footer-heading">Newsletter:</h2>
+                        <div class="col-md-12 col-lg-11 mb-md-0 mb-3">
+                            <h2 class="footer-heading mb-3">Newsletter:</h2>
                             <form action="#" class="subscribe-form">
                                 <div class="form-group d-flex">
                                     <input type="text" class="form-control rounded-left" placeholder="Your email here">
@@ -298,7 +384,7 @@
                                         class="form-control submit ms-3 rounded-right">
                                 </div>
                             </form>
-                            <h2 class="footer-heading mt-5">Social:</h2>
+                            <h2 class="footer-heading mt-4 mb-3">Social:</h2>
                             <ul class="ftco-footer-social p-0">
                                 <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
                                         title="Twitter"><span class="fi fi-brands-twitter"></span></a></li>
