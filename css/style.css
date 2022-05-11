@@ -640,65 +640,76 @@
   }
 }
 
-@media screen and (max-width: 375px) {
-  .about .bg {
-    height: 280px;
-    width: 400px;
-  }
+@media screen and (max-width: 394px) {
   .about .bg-2 {
-    margin-right: -25px;
-    width: 320px;
-    height: 265px;
-    top: 720px;
+    height: 410px;
+    right: 0px;
+    top: 2530px;
   }
   .about h3 {
-    font-size: 5.9vw;
-    left: 90px;
-    top: 779px;
+    left: 35px;
+    top: 2590px;
   }
   .about p {
-    font-size: 3.2vw;
-    left: 90px;
-    right: 30px;
-    top: 815px;
+    left: 35px;
+    right: 40px;
+    top: 2635px;
   }
   .about .btn-about {
-    left: 90px;
-    top: 964px;
-  }
-  .about .btn-about .btn {
-    font-size: 3vw;
+    left: 35px;
+    top: 2880px;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .about .bg {
-    height: 280px;
-    width: 400px;
-  }
+@media screen and (max-width: 365px) {
   .about .bg-2 {
-    margin-right: -25px;
-    width: 320px;
-    height: 265px;
-    top: 720px;
+    top: 2440px;
   }
   .about h3 {
-    font-size: 6.2vw;
-    left: 32px;
-    top: 779px;
+    top: 2500px;
   }
   .about p {
-    font-size: 3.9vw;
-    left: 32px;
-    right: 18px;
-    top: 811px;
+    left: 35px;
+    right: 40px;
+    top: 2550px;
   }
   .about .btn-about {
-    left: 32px;
-    top: 964px;
+    top: 2800px;
   }
-  .about .btn-about .btn {
-    font-size: 3vw;
+}
+
+@media screen and (max-width: 340px) {
+  .about .bg-2 {
+    top: 2370px;
+  }
+  .about h3 {
+    top: 2430px;
+  }
+  .about p {
+    right: 30px;
+    top: 2480px;
+  }
+  .about .btn-about {
+    top: 2730px;
+  }
+}
+
+@media screen and (max-width: 322px) {
+  .about .bg-2 {
+    top: 2410px;
+  }
+  .about h3 {
+    left: 28px;
+    top: 2468px;
+  }
+  .about p {
+    left: 28px;
+    right: 25px;
+    top: 2510px;
+  }
+  .about .btn-about {
+    left: 28px;
+    top: 2760px;
   }
 }
 
