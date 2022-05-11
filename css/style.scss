@@ -1173,7 +1173,20 @@
 // <--------------- END-CART --------------->
 
 // <--------------- Mitra-Profile --------------->
+
 .mitra-profile{
+    .bg-profile{
+        position: relative;
+        .d-flex{
+            align-items: end;
+            h1{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 55px;
+    }
+        }
+    }
     h2{
         font-weight: bold;
     }
@@ -1185,6 +1198,18 @@
     }
     .extra{
         line-height: 15px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .mitra-profile{
+        .bg-profile{
+        .d-flex{
+            justify-content: center;
+            h1{
+                font-size: 40px;
+                }
+            }
+        }
     }
 }
 // <--------------- END-Mitra-Profile --------------->
