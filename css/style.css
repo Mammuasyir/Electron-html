@@ -759,7 +759,6 @@
 
 .blank p {
   color: #000F48;
-  font-size: 20px;
 }
 
 .blank .btn-blank {
@@ -777,11 +776,11 @@
 }
 
 @media screen and (max-width: 320px) {
-  .blank p {
-    font-size: 4vw;
+  .blank h3 {
+    font-size: 6vw;
   }
   .blank .btn-blank .btn {
-    font-size: 4vw;
+    font-size: 4.2vw;
   }
 }
 
@@ -866,12 +865,16 @@
 }
 
 .detail .tambah {
-  color: #FFC806 !important;
   display: block;
   font-size: 16px;
   background: #000F48 !important;
   border: none;
   border-radius: 0;
+}
+
+.detail .tambah a {
+  color: #FFC806 !important;
+  text-decoration: none;
 }
 
 .detail .tawar {
@@ -1060,12 +1063,16 @@
 }
 
 .cart .tambah {
-  color: #FFC806 !important;
   display: block;
   font-size: 16px;
   background: #000F48 !important;
   border: none;
   border-radius: 0;
+}
+
+.cart .tambah a {
+  text-decoration: none;
+  color: #FFC806 !important;
 }
 
 @media screen and (max-width: 767px) {

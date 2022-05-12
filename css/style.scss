@@ -830,7 +830,7 @@
     }
     p{
         color: #000F48;
-        font-size: 20px;
+        
     }
     .btn-blank{
         background-color: #000F48;
@@ -848,12 +848,12 @@
 }
 @media screen and (max-width: 320px) {
     .blank {
-        p{
-            font-size: 4vw;
+        h3{
+            font-size:  6vw;
         }
         .btn-blank{
             .btn{
-                font-size: 4vw;
+                font-size: 4.2vw;
             }
         }
     }
@@ -948,7 +948,10 @@
         height: 25px;
     }
     .tambah{
-        color: #FFC806 !important;
+        a{
+            color: #FFC806 !important;
+            text-decoration: none;
+        }
         display: block;
         font-size: 16px;
         background: #000F48 !important;
@@ -1142,7 +1145,10 @@
         font-weight: bolder;
     }
     .tambah{
-        color: #FFC806 !important;
+        a{
+            text-decoration: none;
+            color: #FFC806 !important;
+        }
         display: block;
         font-size: 16px;
         background: #000F48 !important;
