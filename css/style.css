@@ -1193,6 +1193,35 @@
   }
 }
 
+.riwayat-pesanan h4 {
+  font-weight: bolder;
+}
+
+.riwayat-pesanan table thead {
+  background-color: #F9E0A2;
+}
+
+.riwayat-pesanan table tbody {
+  border: 0;
+  border: 2px solid rgba(218, 216, 216, 0.897);
+}
+
+.riwayat-pesanan table tbody tr {
+  border: 0;
+  border: 2px solid rgba(218, 216, 216, 0.897);
+}
+
+.riwayat-pesanan table tbody td {
+  border: 0;
+  border: 2px solid rgba(218, 216, 216, 0.897);
+}
+
+.riwayat-pesanan table .detail {
+  color: white;
+  border-radius: 0%;
+  background-color: #000F48;
+}
+
 .pesanan .icon {
   height: 80px;
 }

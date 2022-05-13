@@ -1267,6 +1267,36 @@
 }
 // <---------------END Dashboard Pesanan --------------->
 
+// <--------------- Riwayat Pesanan --------------->
+.riwayat-pesanan{
+    h4{
+        font-weight: bolder;
+    }
+    table{
+        thead{
+            background-color: #F9E0A2;
+        }
+        tbody{
+            tr{
+                border: 0;
+            border: 2px solid rgba(218, 216, 216, 0.897);
+            }
+            td{
+                border: 0;
+            border: 2px solid rgba(218, 216, 216, 0.897);
+            }
+            border: 0;
+            border: 2px solid rgba(218, 216, 216, 0.897);
+        }
+        .detail{
+            color: white;
+            border-radius: 0%;
+            background-color: #000F48;
+        }
+    }
+}
+// <---------------END Riwayat Pesanan --------------->
+
 
 
 
