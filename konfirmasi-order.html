@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
+    <!-- disabled meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -109,62 +109,101 @@
     <div class="content_area">
 
         <div class="container riwayat-konfirmasi mt-5 pt-4 mb-5">
-            <div class="border mt-5">
-                <!-- Riwayat -->
+            <div class="border mt-2">
                 <div class="row ms-3 g-2 me-3">
-                    <h4 class="judul mt-4 mb-3">Riwayat Pesanan</h4>
+                    <!-- Data Pelanggan -->
+                    <h4 class="judul pt-4 mb-2">Data Pelanggan</h4>
+                    <div class="col-12">
+                        <div class="form-group form-group-default">
+                            <label>Invoice ID</label>
+                            <div class="d-flex input-icon align-items-center">
+                                <input id="name" name="name" type="text" class="form-control mb-3" value="XtIN-1649053436"
+                                    disabled>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group form-group-default">
+                            <label>Nama Lengkap</label>
+                            <div class="d-flex input-icon align-items-center">
+                                <input id="name" name="name" type="text" class="form-control mb-3"
+                                    value="Budi Setiawan" disabled>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group form-group-default">
+                            <label>Nama Perusahaan</label>
+                            <div class="d-flex input-icon align-items-center">
+                                <input id="name" name="name" type="text" class="form-control mb-3"
+                                    value="Intikom" disabled>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group form-group-default">
+                            <label>No. telpon</label>
+                            <div class="d-flex input-icon align-items-center">
+                                <input id="name" name="name" type="text" class="form-control mb-3" value="08977473885"
+                                    disabled>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group form-group-default">
+                            <label>Alamat Lengkap</label>
+                            <div class="d-flex input-icon align-items-center">
+                                <input id="name" name="name" type="text" class="form-control mb-3"
+                                    value="Graha Intikom, Jl. Kuningan Barat II No.11, RT.3/RW.2, West Kuningan, Mampang Prapatan, South Jakarta City, Jakarta 12710" disabled>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group form-group-default">
+                            <label>Harga Penawaran</label>
+                            <div class="d-flex input-icon align-items-center">
+                                <input id="name" name="name" type="text" class="form-control mb-3"
+                                    value="Rp.xxxxxxxx" disabled>
+                            </div>
+                        </div>
+                    </div>
+                    <!--END Data Pelanggan -->
+                    <!-- Detail Pesanan -->
+                    <h4 class="judul mt-4 mb-2">Detail Pesanan</h4>
                     <div class="table-responsive">
-                        <table class="table table-bordered table-sm text-center align-items-center mb-4">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Invoice</th>
-                                        <th scope="col">Penerima</th>
-                                        <th scope="col">No Telpon</th>
-                                        <th scope="col">Total</th>
-                                        <th scope="col">Status</th>
-                                        <th scope="col">Tanggal</th>
-                                        <th scope="col">Aksi</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td scope="row">XtIN-1649053436</td>
-                                        <td>Intikom</td>
-                                        <td>088823416573</td>
-                                        <td>0</td>
-                                        <td>Baru</td>
-                                        <td>2022-04-04 06:23:56</td>
-                                        <td>
-                                            <button class="btn detail"><a href="konfirmasi-order.html" target="_blank" rel="noopener noreferrer">Detail</a></button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">XtIN-1649053436</td>
-                                        <td>Intikom</td>
-                                        <td>088823416573</td>
-                                        <td>0</td>
-                                        <td>Baru</td>
-                                        <td>2022-04-04 06:23:56</td>
-                                        <td>
-                                            <button class="btn detail"><a href="konfirmasi-order.html" target="_blank" rel="noopener noreferrer">Detail</a></button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">XtIN-1649053436</td>
-                                        <td>Intikom</td>
-                                        <td>088823416573</td>
-                                        <td>0</td>
-                                        <td>Baru</td>
-                                        <td>2022-04-04 06:23:56</td>
-                                        <td>
-                                            <button class="btn detail"><a href="konfirmasi-order.html" target="_blank" rel="noopener noreferrer">Detail</a></button>
-                                        </td>
-                                    </tr>
-                                </tbody>
+                        <table class="table table-bordered table-sm text-center align-items-center mb-3">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Nama Produk</th>
+                                    <th scope="col">Harga</th>
+                                    <th scope="col">Quantity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">Penambahan Tenaga Listrik</td>
+                                    <td>Rp.xxxxxxxxx</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Penambahan Tenaga Listrik</td>
+                                    <td>Rp.xxxxxxxxx</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Penambahan Tenaga Listrik</td>
+                                    <td>Rp.xxxxxxxxx</td>
+                                    <td>1</td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
+                    <!-- End Detail Pesanan -->
+                    <!-- Diskusi -->
+                    <h4 class="judul mt-4 mb-2">Diskusi</h4>
+                    <img src="Asset/new-diskusi.png" class="img-fluid px-2 mb-4" alt="">
+                    <!-- End Diskusi -->
                 </div>
-                <!-- End Riwayat -->
             </div>
         </div>
 
