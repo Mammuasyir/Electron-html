@@ -1042,56 +1042,6 @@
 }
 // <--------------- END-PROFILE --------------->
 
-// <--------------- PESANAN --------------->
-.pesanan{
-    .icon{
-        height: 80px;
-    }
-    .judul{
-        font-weight: bold;
-        color: #000F48;
-    }
-    .text-start{
-        h1{
-            font-weight: bold;
-            color: #000F48;
-        }
-    }
-    .diskusi{
-        img{
-            width: 25%;
-        }
-        h3{
-            font-weight: bolder;
-            font-family:'Poppins';
-            
-        }
-        p{
-            color: #000F48;
-        }
-        .btn-chat{
-            background-color: #000F48;
-            width: 25%;
-            .btn{
-                color: #FFC806;
-            }
-        }
-    }
-}
-@media screen and (max-width: 425px) {
-    .pesanan {
-        .diskusi{
-            img{
-                width: 50%;
-            }
-            .btn-chat{
-                width: 50%;
-            }
-        }
-    }
-}
-// <--------------- END-PESANAN --------------->
-
 // <--------------- CART --------------->
 .cart{
     h2{
@@ -1226,3 +1176,147 @@
     }
 }
 // <--------------- END-Mitra-Profile --------------->
+
+// <--------------- Dashboard Pesanan --------------->
+.dashboard-pesanan{
+    .judul{
+        font-weight: bold;
+        font-style: normal;
+        color: #000F48;
+    }
+    .nav-pills{
+        background-color: #000F48;
+        li{
+            a{
+                font-size: 20px;
+                color: white;
+            }
+            .active{
+                color: #FFC806;
+                :horizontal{
+                    list-style: none;
+                }
+            }
+        }
+    }
+    .kosong{
+        h3{
+            font-weight: bolder;
+            font-family:'Poppins';
+            
+        }
+    }
+    .list{
+        img{
+            width: 80%;
+        }
+        .detail{
+            margin-left: -40px;
+            h5{
+                font-weight: bold;
+            }
+            p{
+                font-size: 14px;
+            }
+            .proses{
+                a{
+                    text-decoration: none;
+                    color: #FFC806 !important;
+                }
+                display: block;
+                background: #000F48 !important;
+                border: none;
+                border-radius: 0;
+            }
+            .batal{
+                a{
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: #000F48 !important;
+                }
+                display: block;
+                background: #696969 !important;
+                border: none;
+                border-radius: 0;
+            }
+            .selesai{
+                a{
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: white !important;
+                }
+                display: block;
+                background: #16A925 !important;
+                border: none;
+                border-radius: 0;
+            }
+        }
+    }
+}
+@media screen and (max-width: 991px) {
+    .dashboard-pesanan{
+        .list{
+            img{
+                width: fit-content;
+            }
+            .detail{
+                margin-left: 0px;
+            }
+        }
+    }
+}
+// <---------------END Dashboard Pesanan --------------->
+
+
+
+
+
+// <--------------- PESANAN model lama --------------->
+.pesanan{
+    .icon{
+        height: 80px;
+    }
+    .judul{
+        font-weight: bold;
+        color: #000F48;
+    }
+    .text-start{
+        h1{
+            font-weight: bold;
+            color: #000F48;
+        }
+    }
+    .diskusi{
+        img{
+            width: 25%;
+        }
+        h3{
+            font-weight: bolder;
+            font-family:'Poppins';
+            
+        }
+        p{
+            color: #000F48;
+        }
+        .btn-chat{
+            background-color: #000F48;
+            width: 25%;
+            .btn{
+                color: #FFC806;
+            }
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+    .pesanan {
+        .diskusi{
+            img{
+                width: 50%;
+            }
+            .btn-chat{
+                width: 50%;
+            }
+        }
+    }
+}
+// <--------------- END-PESANAN model lama --------------->

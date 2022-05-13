@@ -958,51 +958,6 @@
   height: 50px;
 }
 
-.pesanan .icon {
-  height: 80px;
-}
-
-.pesanan .judul {
-  font-weight: bold;
-  color: #000F48;
-}
-
-.pesanan .text-start h1 {
-  font-weight: bold;
-  color: #000F48;
-}
-
-.pesanan .diskusi img {
-  width: 25%;
-}
-
-.pesanan .diskusi h3 {
-  font-weight: bolder;
-  font-family: 'Poppins';
-}
-
-.pesanan .diskusi p {
-  color: #000F48;
-}
-
-.pesanan .diskusi .btn-chat {
-  background-color: #000F48;
-  width: 25%;
-}
-
-.pesanan .diskusi .btn-chat .btn {
-  color: #FFC806;
-}
-
-@media screen and (max-width: 425px) {
-  .pesanan .diskusi img {
-    width: 50%;
-  }
-  .pesanan .diskusi .btn-chat {
-    width: 50%;
-  }
-}
-
 .cart h2 {
   font-weight: bold;
 }
@@ -1142,6 +1097,144 @@
   .mitra-profile .bg-profile .d-flex h1 {
     font-size: 35px;
     padding-bottom: 4px;
+  }
+}
+
+.dashboard-pesanan .judul {
+  font-weight: bold;
+  font-style: normal;
+  color: #000F48;
+}
+
+.dashboard-pesanan .nav-pills {
+  background-color: #000F48;
+}
+
+.dashboard-pesanan .nav-pills li a {
+  font-size: 20px;
+  color: white;
+}
+
+.dashboard-pesanan .nav-pills li .active {
+  color: #FFC806;
+}
+
+.dashboard-pesanan .nav-pills li .active :horizontal {
+  list-style: none;
+}
+
+.dashboard-pesanan .kosong h3 {
+  font-weight: bolder;
+  font-family: 'Poppins';
+}
+
+.dashboard-pesanan .list img {
+  width: 80%;
+}
+
+.dashboard-pesanan .list .detail {
+  margin-left: -40px;
+}
+
+.dashboard-pesanan .list .detail h5 {
+  font-weight: bold;
+}
+
+.dashboard-pesanan .list .detail p {
+  font-size: 14px;
+}
+
+.dashboard-pesanan .list .detail .proses {
+  display: block;
+  background: #000F48 !important;
+  border: none;
+  border-radius: 0;
+}
+
+.dashboard-pesanan .list .detail .proses a {
+  text-decoration: none;
+  color: #FFC806 !important;
+}
+
+.dashboard-pesanan .list .detail .batal {
+  display: block;
+  background: #696969 !important;
+  border: none;
+  border-radius: 0;
+}
+
+.dashboard-pesanan .list .detail .batal a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000F48 !important;
+}
+
+.dashboard-pesanan .list .detail .selesai {
+  display: block;
+  background: #16A925 !important;
+  border: none;
+  border-radius: 0;
+}
+
+.dashboard-pesanan .list .detail .selesai a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white !important;
+}
+
+@media screen and (max-width: 991px) {
+  .dashboard-pesanan .list img {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .dashboard-pesanan .list .detail {
+    margin-left: 0px;
+  }
+}
+
+.pesanan .icon {
+  height: 80px;
+}
+
+.pesanan .judul {
+  font-weight: bold;
+  color: #000F48;
+}
+
+.pesanan .text-start h1 {
+  font-weight: bold;
+  color: #000F48;
+}
+
+.pesanan .diskusi img {
+  width: 25%;
+}
+
+.pesanan .diskusi h3 {
+  font-weight: bolder;
+  font-family: 'Poppins';
+}
+
+.pesanan .diskusi p {
+  color: #000F48;
+}
+
+.pesanan .diskusi .btn-chat {
+  background-color: #000F48;
+  width: 25%;
+}
+
+.pesanan .diskusi .btn-chat .btn {
+  color: #FFC806;
+}
+
+@media screen and (max-width: 425px) {
+  .pesanan .diskusi img {
+    width: 50%;
+  }
+  .pesanan .diskusi .btn-chat {
+    width: 50%;
   }
 }
 /*# sourceMappingURL=style.css.map */
