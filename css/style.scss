@@ -5,8 +5,11 @@
 //navbar
 .navbar{
     a{
-        .img-fluid{
+        .logo{
             width: 170px;
+        }
+        .avatar{
+            width: 35px;
         }
     }
     .collapse{
@@ -1071,7 +1074,7 @@
         .pindah{
             p{
                 font-size: 12px;
-                margin-inline-start: auto;
+                
             }
             .garis_vertikal{
                 border-left: 1.5px #b8b2b2 solid;

@@ -42,7 +42,8 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
             <div class="container">
-                <a class="navbar-brand" href="/" aria-current="page"> <img class="img-fluid" src="Asset/logo.png"></a>
+                <a class="navbar-brand" href="landing.html" aria-current="page"> <img class="img-fluid logo"
+                        src="Asset/logo.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +52,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item ms-3">
-                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                            <a class="nav-link active" aria-current="page" href="dashboard-pesanan.html">HOME</a>
                         </li>
                         <li class="nav-item dropdown ms-3">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -71,20 +72,24 @@
 
                     <div class="d-flex">
                         <ul class="navbar-nav me-auto mb-lg-0">
-                            <a class="nav-link active ms-3" aria-current="page" href="#"><i class="fi fi-rr-search"></i></a>
-
-                            <a class="nav-link active ms-3" aria-current="page" href="#"><i
-                                    class="fi fi-rr-shopping-cart"></i></a>
-
-                            <li class="nav-item dropdown ms-3">
+                            <li class="nav-item ms-2 pt-2">
+                                <a class="nav-link active" aria-current="page" href="#"><i
+                                        class="fi fi-rr-search"></i></a>
+                            </li>
+                            <li class="nav-item ms-2 pt-2">
+                                <a class="nav-link active" aria-current="page" href="#"><i
+                                        class="fi fi-rr-shopping-cart"></i></a>
+                            </li>
+                            <li class="nav-item dropdown ms-2">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    Handoko
+                                    <img src="Asset/p18.jfif" class="img-fluid avatar rounded-circle" alt="">
+                                    <span class="ms-1">Handoko</span>
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="profile.html">Profile</a></li>
-                                <li><a class="dropdown-item" href="dashboard-pesanan.html">Dashboard</a></li>
-                                <li><a class="dropdown-item" href="riwayat-pesanan.html">Pesanan</a></li>
+                                    <li><a class="dropdown-item" href="dashboard-pesanan.html">Dashboard</a></li>
+                                    <li><a class="dropdown-item" href="riwayat-pesanan.html">Pesanan</a></li>
                                     <li>
                                         <a class="dropdown-item" href="#" onclick="event.preventDefault();
                                     document.getElementById('logout-form').submit();">
