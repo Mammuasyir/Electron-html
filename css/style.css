@@ -849,6 +849,29 @@
   font-weight: bold;
 }
 
+.all .nav-tab {
+  background: none;
+}
+
+.all .nav-tab .nav-link {
+  color: gray;
+  font-size: 19px;
+  border-radius: 0;
+  border: 1px solid transparent;
+  padding: 0;
+  margin: 0;
+}
+
+.all .nav-tab .nav-link:hover {
+  color: #000F48;
+}
+
+.all .nav-tab .nav-link.active {
+  font-weight: bold;
+  color: #000F48;
+  border-bottom: 3px solid #000F48;
+}
+
 .all .pro .card-body {
   background-color: #000F48;
 }
@@ -862,11 +885,6 @@
 .all .pro .card-body p {
   color: white;
   font-size: 14px;
-}
-
-.all .widgets_inner ul li {
-  font-weight: bold;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 375px) {
