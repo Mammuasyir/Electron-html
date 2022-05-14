@@ -42,6 +42,11 @@
         .login:hover{
             color: white;
         }
+        .badge{
+            font-size: xx-small;
+            right: 259px;
+            top: 33px;
+        }
     }
 }
 //end-navbar
@@ -256,7 +261,26 @@
         font-weight:bold;
         color: #000F48;
     }
-    .latest_product_inner{
+    .nav-tab{
+        background-color: white;
+            .nav-link{
+                color: gray;
+                font-size: 19px;
+                border-radius: 0;
+                border: 10px solid transparent;
+                padding: 0;
+                margin: 0;
+            }
+            .nav-link:hover{
+                color: #000F48;
+            }
+            .nav-link.active{
+                font-weight: bold;
+                color: #000F48;
+                border-bottom: 3px solid #000F48;
+            }
+    }
+    .tab-pane{
         .card-body{
             background-color: #000F48;
             h4{
@@ -1187,20 +1211,23 @@
         font-style: normal;
         color: #000F48;
     }
-    .nav-pills{
+    .nav-tab{
         background-color: #000F48;
-        li{
-            a{
-                font-size: 20px;
+            .nav-link{
                 color: white;
+                font-size: 19px;
+                border-radius: 0;
+                border: 10px solid transparent;
+                padding: 0;
+                margin: 0;
             }
-            .active{
+            .nav-link:hover{
                 color: #FFC806;
-                :horizontal{
-                    list-style: none;
-                }
             }
-        }
+            .nav-link.active{
+                color: #FFC806;
+                border-bottom: 3px solid #FFC806;
+            }
     }
     .kosong{
         h3{

@@ -39,6 +39,12 @@
   color: white;
 }
 
+.navbar .d-flex .badge {
+  font-size: xx-small;
+  right: 259px;
+  top: 33px;
+}
+
 .daftar .modal-body h5 {
   color: black;
   font-weight: bold;
@@ -217,16 +223,39 @@
   color: #000F48;
 }
 
-.produk-area .latest_product_inner .card-body {
+.produk-area .nav-tab {
+  background-color: white;
+}
+
+.produk-area .nav-tab .nav-link {
+  color: gray;
+  font-size: 19px;
+  border-radius: 0;
+  border: 10px solid transparent;
+  padding: 0;
+  margin: 0;
+}
+
+.produk-area .nav-tab .nav-link:hover {
+  color: #000F48;
+}
+
+.produk-area .nav-tab .nav-link.active {
+  font-weight: bold;
+  color: #000F48;
+  border-bottom: 3px solid #000F48;
+}
+
+.produk-area .tab-pane .card-body {
   background-color: #000F48;
 }
 
-.produk-area .latest_product_inner .card-body h4 {
+.produk-area .tab-pane .card-body h4 {
   font-weight: bold;
   color: white;
 }
 
-.produk-area .latest_product_inner .card-body p {
+.produk-area .tab-pane .card-body p {
   font-size: 18px;
   color: white;
 }
@@ -1108,21 +1137,26 @@
   color: #000F48;
 }
 
-.dashboard-pesanan .nav-pills {
+.dashboard-pesanan .nav-tab {
   background-color: #000F48;
 }
 
-.dashboard-pesanan .nav-pills li a {
-  font-size: 20px;
+.dashboard-pesanan .nav-tab .nav-link {
   color: white;
+  font-size: 19px;
+  border-radius: 0;
+  border: 10px solid transparent;
+  padding: 0;
+  margin: 0;
 }
 
-.dashboard-pesanan .nav-pills li .active {
+.dashboard-pesanan .nav-tab .nav-link:hover {
   color: #FFC806;
 }
 
-.dashboard-pesanan .nav-pills li .active :horizontal {
-  list-style: none;
+.dashboard-pesanan .nav-tab .nav-link.active {
+  color: #FFC806;
+  border-bottom: 3px solid #FFC806;
 }
 
 .dashboard-pesanan .kosong h3 {
