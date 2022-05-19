@@ -1119,6 +1119,12 @@
         border-bottom: 4px solid #817e7e;
         margin-top: -2px;
     }
+    .form-check-input{
+        border-color: #6E7491;
+    }
+    .form-check-input:checked{
+        background-color: #FFC806 !important;
+    }
     img{
         width: 100%;
     }

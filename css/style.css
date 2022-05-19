@@ -1053,6 +1053,14 @@
   margin-top: -2px;
 }
 
+.cart .form-check-input {
+  border-color: #6E7491;
+}
+
+.cart .form-check-input:checked {
+  background-color: #FFC806 !important;
+}
+
 .cart img {
   width: 100%;
 }
