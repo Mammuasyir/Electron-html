@@ -267,7 +267,7 @@
     .nav-tab{
         background: none;
             .nav-link{
-                color: gray;
+                color: #C2C7D6;
                 font-size: 19px;
                 border-radius: 0;
                 border: 1px solid transparent;
@@ -278,9 +278,10 @@
                 color: #000F48;
             }
             .nav-link.active{
+                padding-left: 10px;
                 font-weight: bold;
                 color: #000F48;
-                border-bottom: 3px solid #000F48;
+                border-left: 2px solid #000F48;
             }
     }
     .tab-pane{
@@ -923,7 +924,7 @@
     .nav-tab{
         background: none;
             .nav-link{
-                color: gray;
+                color: #C2C7D6;
                 font-size: 19px;
                 border-radius: 0;
                 border: 1px solid transparent;
@@ -934,9 +935,10 @@
                 color: #000F48;
             }
             .nav-link.active{
+                padding-left: 10px;
                 font-weight: bold;
                 color: #000F48;
-                border-bottom: 3px solid #000F48;
+                border-left: 3px solid #000F48;
             }
     }
     .pro{
@@ -978,8 +980,25 @@
             font-weight: bold;
         }
     }
+    .nav-tab{
+            .nav-link{
+                background: none;
+                color: gray;
+                font-size: 16px;
+                border-radius: 0;
+                border: 5px solid transparent;
+                padding: 0;
+                margin: 0;
+            }
+            .nav-link:hover{
+                color: #000F48;
+            }
+            .nav-link.active{
+                color: #000F48;
+                border-bottom: 2px solid #000F48;
+            }
+    }
     input{
-        
         font-size: 14px;
         color: #012970;
         border: 1px solid rgba(1, 41, 112, 0.2);
@@ -1005,6 +1024,7 @@
         border-color: #000F48;
     }
     .btn:hover{
+        color: white;
         background-color: #FFC806;
     }
 }

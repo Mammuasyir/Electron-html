@@ -232,7 +232,7 @@
 }
 
 .produk-area .nav-tab .nav-link {
-  color: gray;
+  color: #C2C7D6;
   font-size: 19px;
   border-radius: 0;
   border: 1px solid transparent;
@@ -245,9 +245,10 @@
 }
 
 .produk-area .nav-tab .nav-link.active {
+  padding-left: 10px;
   font-weight: bold;
   color: #000F48;
-  border-bottom: 3px solid #000F48;
+  border-left: 2px solid #000F48;
 }
 
 .produk-area .tab-pane .card-body {
@@ -858,7 +859,7 @@
 }
 
 .all .nav-tab .nav-link {
-  color: gray;
+  color: #C2C7D6;
   font-size: 19px;
   border-radius: 0;
   border: 1px solid transparent;
@@ -871,9 +872,10 @@
 }
 
 .all .nav-tab .nav-link.active {
+  padding-left: 10px;
   font-weight: bold;
   color: #000F48;
-  border-bottom: 3px solid #000F48;
+  border-left: 3px solid #000F48;
 }
 
 .all .pro .card-body {
@@ -909,6 +911,25 @@
   font-weight: bold;
 }
 
+.detail .nav-tab .nav-link {
+  background: none;
+  color: gray;
+  font-size: 16px;
+  border-radius: 0;
+  border: 5px solid transparent;
+  padding: 0;
+  margin: 0;
+}
+
+.detail .nav-tab .nav-link:hover {
+  color: #000F48;
+}
+
+.detail .nav-tab .nav-link.active {
+  color: #000F48;
+  border-bottom: 2px solid #000F48;
+}
+
 .detail input {
   font-size: 14px;
   color: #012970;
@@ -939,6 +960,7 @@
 }
 
 .detail .btn:hover {
+  color: white;
   background-color: #FFC806;
 }
 
