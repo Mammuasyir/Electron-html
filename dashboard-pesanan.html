@@ -42,8 +42,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
             <div class="container">
-                <a class="navbar-brand" href="index.html" aria-current="page"> <img class="img-fluid logo"
-                        src="Asset/logo.png"></a>
+                <a href="index.html" aria-current="page"> <img class="img-fluid logo" src="Asset/logo.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -61,45 +60,42 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li>
-                                    <a class="nav-link active" aria-current="page" href="#">ICT Solution</a>
+                                    <a class="dropdown-item" aria-current="page" href="allProduk.html">ICT
+                                        Solution</a>
                                 </li>
                                 <li>
-                                    <a class="nav-link active" aria-current="page" href="#">Electric City Solution</a>
+                                    <a class="dropdown-item" aria-current="page" href="allProduk.html">Electric City
+                                        Solution</a>
                                 </li>
                             </ul>
                         </li>
                     </ul>
 
                     <div class="d-flex">
-                        <ul class="navbar-nav me-auto mb-lg-0">
-                            <li class="nav-item ms-2 pt-1">
-                                <a class="nav-link active" aria-current="page" href="#"><img src="Asset/search.png" alt=""></a>
-                            </li>
-                            <li class="nav-item ms-2 pt-1">
-                                <a class="nav-link active" aria-current="page" href="cart.html"><img src="Asset/bag.png" alt=""></a>
-                            </li>
-                            <li class="nav-item dropdown ms-2">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img src="Asset/p18.jfif" class="img-fluid avatar rounded-circle" alt="">
-                                    <span class="ms-1">Handoko</span>
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item user" href="profile.html">Profile</a></li>
-                                    <li><a class="dropdown-item user" href="dashboard-pesanan.html">Dashboard</a></li>
-                                    <li><a class="dropdown-item user" href="riwayat-pesanan.html">Pesanan</a></li>
-                                    <li>
-                                        <a class="dropdown-item user" href="#" onclick="event.preventDefault();
+                        <a class="nav-link active mt-1" aria-current="page" href="#"><img src="Asset/search.png" alt=""></a>
+                        <a class="nav-link active mt-1" aria-current="page" href="cart.html"><img src="Asset/bag.png"
+                                alt=""></a>
+                        <div class="nav-item dropdown ms-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="Asset/p18.jfif" class="img-fluid avatar rounded-circle" alt="">
+                                <span class="ms-1">Handoko</span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item user" href="profile.html">Profile</a>
+                                <a class="dropdown-item user" href="dashboard-pesanan.html">Dashboard</a>
+                                <a class="dropdown-item user" href="riwayat-pesanan.html">Pesanan</a>
+                                
+                                    <a class="dropdown-item user" href="#" onclick="event.preventDefault();
                                     document.getElementById('logout-form').submit();">
-                                            Logout
-                                        </a>
-                                        <form id="logout-form" action="#" method="POST" class="d-none">
+                                        Logout
+                                    </a>
+                                    <form id="logout-form" action="#" method="POST" class="d-none">
 
-                                        </form>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
+                                    </form>
+                                
+                            </div>
+                        </div>
                     </div>
 
                 </div>
