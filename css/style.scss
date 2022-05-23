@@ -338,16 +338,16 @@
     .about{
         h3{
             left: 780px;
-            top: 2150px;
+            top: 2220px;
         }
         p{
             left: 780px;
             right: 240px;
-            top: 2220px;
+            top: 2290px;
         }
         .btn-about{
             left: 780px;
-            top: 2540px;
+            top: 2610px;
         }
     }
 }
@@ -355,16 +355,16 @@
     .about{
         h3{
             left: 845px;
-            top: 2050px;
+            top: 2120px;
         }
         p{
             left: 845px;
             right: 130px;
-            top: 2125px;
+            top: 2195px;
         }
         .btn-about{
             left: 845px;
-            top: 2435px;
+            top: 2505px;
         }
     }
 }
@@ -372,16 +372,16 @@
     .about{
         h3{
             left: 795px;
-            top: 2005px;
+            top: 2075px;
         }
         p{
             left: 795px;
             right: 110px;
-            top: 2075px;
+            top: 2145px;
         }
         .btn-about{
             left: 795px;
-            top: 2390px;
+            top: 2460px;
         }
     }
 }
@@ -395,16 +395,16 @@
         }
         h3{
             left: 720px;
-            top: 1980px;
+            top: 2050px;
         }
         p{
             left: 720px;
             right: 90px;
-            top: 2050px;
+            top: 2120px;
         }
         .btn-about{
             left: 720px;
-            top: 2345px;
+            top: 2415px;
         }
     }
 }
@@ -412,16 +412,16 @@
     .about{
         h3{
             left: 660px;
-            top: 1935px;
+            top: 2005px;
         }
         p{
             left: 660px;
             right: 85px;
-            top: 2020px;
+            top: 2090px;
         }
         .btn-about{
             left: 660px;
-            top: 2310px;
+            top: 2380px;
         }
     }
 }
@@ -435,16 +435,16 @@
         }
         h3{
             left: 550px;
-            top: 1895px;
+            top: 1965px;
         }
         p{
             left: 550px;
             right: 110px;
-            top: 1960px;
+            top: 2030px;
         }
         .btn-about{
             left: 550px;
-            top: 2260px;
+            top: 2330px;
         }
     }
 }
@@ -458,16 +458,16 @@
         }
         h3{
             left: 515px;
-            top: 1855px;
+            top: 1925px;
         }
         p{
             left: 515px;
             right: 100px;
-            top: 1930px;
+            top: 2000px;
         }
         .btn-about{
             left: 515px;
-            top: 2220px;
+            top: 2290px;
         }
     }
 }
@@ -823,7 +823,7 @@
     .card-mitra{
         align-items: center; 
     }
-}
+} 
 @media screen and (min-width: 426px) {
     .mitra {
         h2{
@@ -1118,6 +1118,12 @@
     .line{
         border-bottom: 4px solid #817e7e;
         margin-top: -2px;
+    }
+    .form-check-input{
+        border-color: #6E7491;
+    }
+    .form-check-input:checked{
+        background-color: #FFC806 !important;
     }
     img{
         width: 100%;
