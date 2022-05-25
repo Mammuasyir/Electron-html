@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
 
 	<!-- Vendor CSS Files -->
-	<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+	<link href="admin/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -39,7 +39,7 @@
 		crossorigin="anonymous" referrerpolicy="no-referrer">
 
 	<!-- Template Main CSS File -->
-	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="admin/css/admin.style.css" rel="stylesheet">
 
 </head>
 
@@ -51,11 +51,11 @@
 	<div class="container">
 		<header id="header" class="header fixed-top d-flex align-items-center">
 
-			<div class="container d-flex align-items-center justify-content-">
-				<a href="index.html" aria-current="page"> <img class="img-fluid" src="Asset/logo.png"></a>
-				<i class="bi bi-list toggle-sidebar-btn ms-5"></i>
+			<div class="container d-flex align-items-center">
+				<a href="index.html" aria-current="page"> <img class="img-fluid logo" src="Asset/logo.png"></a>
+				<i class="bi bi-list toggle-sidebar-btn toggle"></i>
 
-				<h6 class="ms-5 pt-3">Dashboard</h6>
+				<h6 class="dash ms-5 ps-2 pt-2">Dashboard</h6>
 			</div><!-- End Logo -->
 
 			<nav class="header-nav ms-auto">
@@ -69,38 +69,26 @@
 							<img src="https://ui-avatars.com/api/?name=Administrator" alt="..."
 								class="avatar-img rounded-circle">
 
-							<span class="d-none d-md-block dropdown-toggle ps-2">Administrator</span>
+							<span class="d-none d-md-block dropdown-toggle ps-2 pe-3">AdminElectron</span>
 						</a><!-- End Profile Image Icon -->
 
 						<ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
-							<li class="dropdown-header">
-								<h6>Administrator</h6>
-								<span>Admin</span>
-							</li>
 							<li>
-								<hr class="dropdown-divider">
+								<a class="dropdown-item user" href="profile.html">Profile</a>
 							</li>
 
 							<li>
-								<a class="dropdown-item d-flex align-items-center" href="/profile">
-									<i class="bi bi-person"></i>
-									<span>My Profile</span>
-								</a>
-							</li>
-							<li>
-								<hr class="dropdown-divider">
-							</li>
-							<li>
-								<hr class="dropdown-divider">
-							</li>
-							<li>
-								<hr class="dropdown-divider">
+								<a class="dropdown-item user" href="dashboard-pesanan.html">Dashboard</a>
 							</li>
 
 							<li>
-								<a class="dropdown-item d-flex align-items-center" href="#" onclick="event.preventDefault();
+								<a class="dropdown-item user" href="riwayat-pesanan.html">Pesanan</a>
+							</li>
+
+							<li>
+								<a class="dropdown-item user d-flex align-items-center" href="#" onclick="event.preventDefault();
 										document.getElementById('logout-form').submit();">
-									<i class="bi bi-box-arrow-right"></i>
+									
 									<span>Sign Out</span>
 								</a>
 								<form id="logout-form" action="#" method="POST" class="d-none">
@@ -124,14 +112,14 @@
 
 			<li class="nav-item">
 				<a class="nav-link collapsed" href="/sertifikasi">
-					<i class="bi bi-folder"></i>
+					<img src="Asset/side-home.png" class="me-2" alt="" srcset="">
 					<span>Dashboard</span>
 				</a>
 			</li><!-- End Dashboard Page Nav -->
 
 			<li class="nav-item">
 				<a class="nav-link collapsed" data-bs-target="#list-produk" data-bs-toggle="collapse" href="#">
-					<i class="bi bi-menu-button-wide"></i><span>Produk</span><i class="bi bi-chevron-down ms-auto"></i>
+					<img src="Asset/side-produk.png" class="me-2" alt="" srcset=""><span>Produk</span><i class="bi bi-chevron-down ms-auto"></i>
 				</a>
 				<ul id="list-produk" class="nav-content collapse " data-bs-parent="#sidebar-nav">
 					<li>
@@ -143,7 +131,7 @@
 			</li><!-- End Produk Nav -->
 			<li class="nav-item">
 				<a class="nav-link collapsed" data-bs-target="#list-pesanan" data-bs-toggle="collapse" href="#">
-					<i class="bi bi-menu-button-wide"></i><span>Pesanan</span><i class="bi bi-chevron-down ms-auto"></i>
+					<img src="Asset/side-pesanan.png" class="me-2" alt="" srcset=""><span>Pesanan</span><i class="bi bi-chevron-down ms-auto"></i>
 				</a>
 				<ul id="list-pesanan" class="nav-content collapse " data-bs-parent="#sidebar-nav">
 					<li>
@@ -156,7 +144,7 @@
 
 			<li class="nav-item">
 				<a class="nav-link collapsed" data-bs-target="#list-laporan" data-bs-toggle="collapse" href="#">
-					<i class="bi bi-journal-text"></i><span>Laporan</span><i class="bi bi-chevron-down ms-auto"></i>
+					<img src="Asset/side-laporan.png" class="me-2" alt="" srcset=""><span>Laporan</span><i class="bi bi-chevron-down ms-auto"></i>
 				</a>
 				<ul id="list-laporan" class="nav-content collapse " data-bs-parent="#sidebar-nav">
 					<li>
@@ -177,26 +165,26 @@
 			<div class="page-inner py-2">
 				<div class="d-flex align-items-left align-items-md-center flex-column flex-md-row">
 					<div>
-						<h6 class="text-white op-7 mb-2">Selamat Datang Kembali, Bambang</h6>
+						<h6 class="op-7 mb-2">Last update: 23/21/2021 15:00 | Tampilan: <span style="color: #00A99D;">Hari Ini</span></h6>
 					</div>
 					<div class="ms-auto">
-						<button class="btn btn-primary p-1">Refresh</button>
+						<button class="btn refresh px-3 p-1"><i class="fi fi-rr-refresh me-2 mt-3"></i>Refresh</button>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="page-inner">
 
+		<div class="page-inner">
 			<div class="row g-2">
 				<div class="col-sm-6 col-lg-4">
 					<div class="card p-5">
 						<div class="d-flex align-items-center">
-							<span class="stamp stamp-md bg-secondary mr-3">
-								<i class="fa fa-dollar-sign"></i>
+							<span class="me-2">
+								<img src="Asset/icon-admin1.png" alt="" srcset="">
 							</span>
 							<div>
-								<h5 class="mb-1"><b><a href="#">132 <small>Transaksi</small></a></b></h5>
-								<small class="text-muted">12 perlu konfirmasi</small>
+								<p class="text-judul mb-0">Omset Harian</p>
+								<h4 class="text-isi">Rp.20.000.000</h4>
 							</div>
 						</div>
 					</div>
@@ -204,12 +192,12 @@
 				<div class="col-sm-6 col-lg-4">
 					<div class="card p-5">
 						<div class="d-flex align-items-center">
-							<span class="stamp stamp-md bg-success mr-3">
-								<i class="fa fa-shopping-cart"></i>
+							<span class="me-2">
+								<img src="Asset/icon-admin2.png" alt="" srcset="">
 							</span>
 							<div>
-								<h5 class="mb-1"><b><a href="#">78 <small>Pesanan</small></a></b></h5>
-								<small class="text-muted">32 belum bayar</small>
+								<p class="text-judul mb-0">Pelanggan Baru H-7</p>
+								<h4 class="text-isi">2</h4>
 							</div>
 						</div>
 					</div>
@@ -217,12 +205,12 @@
 				<div class="col-sm-6 col-lg-4">
 					<div class="card p-5">
 						<div class="d-flex align-items-center">
-							<span class="stamp stamp-md bg-danger mr-3">
-								<i class="fa fa-users"></i>
+							<span class="me-2">
+								<img src="Asset/icon-admin3.png" alt="" srcset="">
 							</span>
 							<div>
-								<h5 class="mb-1"><b><a href="#">1,352 <small>User</small></a></b></h5>
-								<small class="text-muted">163 user aktif</small>
+								<p class="text-judul mb-0">Perlu Dikirim</p>
+								<h4 class="text-isi">20.000</h4>
 							</div>
 						</div>
 					</div>
@@ -238,10 +226,10 @@
 			class="bi bi-arrow-up-short"></i></a>
 
 	<!-- Vendor JS Files -->
-	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="admin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 	
 	<!-- Template Main JS File -->
-	<script src="assets/js/main.js"></script>
+	<script src="admin/js/main.js"></script>
 
 </body>
 
