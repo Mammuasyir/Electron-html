@@ -1,9 +1,10 @@
 *{
-    font-family: 'Work Sans';
+    font-family: 'Work Sans' !important;
 }
 
 //navbar
 .navbar{
+    font-size: 15px;
     a{
         .logo{
             width: 170px;
@@ -26,6 +27,7 @@
             color: #000F48;
         }
         .btn-daftar{
+            font-size: 15px;
             border-radius: 0;
             color: #000F48;
             border-color: #000F48;
@@ -35,6 +37,9 @@
             color: white;
         }
         .login{
+            padding-left: 23px;
+            padding-right: 23px;
+            font-size: 15px;
             border-radius: 0;
             color: #FFC806;
             background-color:#000F48;
@@ -120,7 +125,7 @@
     h1{
         position: absolute;
         color: white;
-        font-weight: bold;
+        font-weight: 500;
         font-size: 5.5vw;
     }
 }

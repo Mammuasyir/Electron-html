@@ -1,5 +1,9 @@
 * {
-  font-family: 'Work Sans';
+  font-family: 'Work Sans' !important;
+}
+
+.navbar {
+  font-size: 15px;
 }
 
 .navbar a .logo {
@@ -19,6 +23,7 @@
 }
 
 .navbar .d-flex .btn-daftar {
+  font-size: 15px;
   border-radius: 0;
   color: #000F48;
   border-color: #000F48;
@@ -30,6 +35,9 @@
 }
 
 .navbar .d-flex .login {
+  padding-left: 23px;
+  padding-right: 23px;
+  font-size: 15px;
   border-radius: 0;
   color: #FFC806;
   background-color: #000F48;
@@ -102,7 +110,7 @@
 .bg-web h1 {
   position: absolute;
   color: white;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 5.5vw;
 }
 
