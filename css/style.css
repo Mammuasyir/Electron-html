@@ -111,12 +111,12 @@
   position: absolute;
   color: white;
   font-weight: 500;
-  font-size: 5.5vw;
+  font-size: 5vw;
 }
 
 @media screen and (max-width: 1440px) {
   .bg-web h1 {
-    top: 210px;
+    top: 220px;
   }
 }
 
@@ -191,7 +191,7 @@
   .bg-web h1 {
     left: 60px;
     top: 30px;
-    font-size: 30px;
+    font-size: 26px;
   }
 }
 
@@ -263,13 +263,14 @@
   background-color: #000F48;
 }
 
-.produk-area .tab-pane .card-body h4 {
-  font-weight: bold;
+.produk-area .tab-pane .card-body h5 {
+  font-weight: 600;
   color: white;
 }
 
 .produk-area .tab-pane .card-body p {
-  font-size: 18px;
+  font-size: 17px;
+  font-weight: 300;
   color: white;
 }
 
@@ -311,48 +312,48 @@
 @media screen and (max-width: 1440px) {
   .about h3 {
     left: 780px;
-    top: 2220px;
+    top: 2270px;
   }
   .about p {
     left: 780px;
     right: 240px;
-    top: 2290px;
+    top: 2340px;
   }
   .about .btn-about {
     left: 780px;
-    top: 2610px;
+    top: 2660px;
   }
 }
 
 @media screen and (max-width: 1399px) {
   .about h3 {
     left: 845px;
-    top: 2120px;
+    top: 2170px;
   }
   .about p {
     left: 845px;
     right: 130px;
-    top: 2195px;
+    top: 2245px;
   }
   .about .btn-about {
     left: 845px;
-    top: 2505px;
+    top: 2555px;
   }
 }
 
 @media screen and (max-width: 1300px) {
   .about h3 {
     left: 795px;
-    top: 2075px;
+    top: 2125px;
   }
   .about p {
     left: 795px;
     right: 110px;
-    top: 2145px;
+    top: 2195px;
   }
   .about .btn-about {
     left: 795px;
-    top: 2460px;
+    top: 2510px;
   }
 }
 
@@ -365,32 +366,32 @@
   }
   .about h3 {
     left: 720px;
-    top: 2050px;
+    top: 2100px;
   }
   .about p {
     left: 720px;
     right: 90px;
-    top: 2120px;
+    top: 2170px;
   }
   .about .btn-about {
     left: 720px;
-    top: 2415px;
+    top: 2465px;
   }
 }
 
 @media screen and (max-width: 1180px) {
   .about h3 {
     left: 660px;
-    top: 2005px;
+    top: 2055px;
   }
   .about p {
     left: 660px;
     right: 85px;
-    top: 2090px;
+    top: 2140px;
   }
   .about .btn-about {
     left: 660px;
-    top: 2380px;
+    top: 2430px;
   }
 }
 
@@ -403,16 +404,16 @@
   }
   .about h3 {
     left: 550px;
-    top: 1965px;
+    top: 2015px;
   }
   .about p {
     left: 550px;
     right: 110px;
-    top: 2030px;
+    top: 2080px;
   }
   .about .btn-about {
     left: 550px;
-    top: 2330px;
+    top: 2380px;
   }
 }
 
@@ -425,28 +426,7 @@
   }
   .about h3 {
     left: 515px;
-    top: 1925px;
-  }
-  .about p {
-    left: 515px;
-    right: 100px;
-    top: 2000px;
-  }
-  .about .btn-about {
-    left: 515px;
-    top: 2290px;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .about .bg-2 {
-    height: 480px;
-    right: 55px;
-    top: 1945px;
-  }
-  .about h3 {
-    left: 515px;
-    top: 2000px;
+    top: 1975px;
   }
   .about p {
     left: 515px;
@@ -455,91 +435,112 @@
   }
   .about .btn-about {
     left: 515px;
-    top: 2360px;
+    top: 2340px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .about .bg-2 {
+    height: 540px;
+    right: 55px;
+    top: 1985px;
+  }
+  .about h3 {
+    left: 515px;
+    top: 2100px;
+  }
+  .about p {
+    left: 515px;
+    right: 100px;
+    top: 2150px;
+  }
+  .about .btn-about {
+    left: 515px;
+    top: 2450px;
   }
 }
 
 @media screen and (max-width: 920px) {
   .about .bg-2 {
-    height: 515px;
+    height: 555px;
     right: 55px;
-    top: 1915px;
+    top: 1955px;
   }
   .about h3 {
     left: 420px;
-    top: 1980px;
+    top: 2080px;
   }
   .about p {
     left: 420px;
     right: 100px;
-    top: 2030px;
+    top: 2130px;
   }
   .about .btn-about {
     left: 420px;
-    top: 2340px;
+    top: 2435px;
   }
 }
 
 @media screen and (max-width: 840px) {
   .about .bg-2 {
     right: 55px;
-    top: 1870px;
+    top: 1910px;
   }
   .about h3 {
     left: 340px;
-    top: 1935px;
+    top: 2035px;
   }
   .about p {
     left: 340px;
     right: 100px;
-    top: 1995px;
+    top: 2095px;
   }
   .about .btn-about {
     left: 340px;
-    top: 2320px;
+    top: 2415px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .about .bg-2 {
     right: 20px;
-    top: 1840px;
+    top: 1860px;
   }
   .about h3 {
     left: 310px;
-    top: 1910px;
+    top: 1980px;
   }
   .about p {
     left: 310px;
     right: 75px;
-    top: 1975px;
+    top: 2045px;
   }
   .about .btn-about {
     left: 310px;
-    top: 2285px;
+    top: 2355px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .about .bg-2 {
-    height: 430px;
+    height: 480px;
     right: 110px;
-    top: 3160px;
+    top: 3200px;
   }
   .about h3 {
     left: 280px;
-    top: 3220px;
+    top: 3320px;
     font-size: 25px;
   }
   .about p {
     left: 280px;
     right: 135px;
-    top: 3270px;
+    top: 3370px;
     font-size: 16px;
   }
   .about .btn-about {
     left: 280px;
-    top: 3520px;
+    top: 3620px;
   }
 }
 
@@ -550,129 +551,168 @@
   }
   .about h3 {
     left: 230px;
-    top: 3225px;
+    top: 3275px;
     font-size: 25px;
   }
   .about p {
     left: 230px;
     right: 110px;
-    top: 3270px;
+    top: 3320px;
     font-size: 16px;
   }
   .about .btn-about {
     left: 230px;
-    top: 3535px;
+    top: 3585px;
   }
 }
 
 @media screen and (max-width: 575px) {
   .about .bg-2 {
     right: 90px;
-    top: 3160px;
+    top: 3200px;
   }
   .about h3 {
     left: 110px;
-    top: 3225px;
+    top: 3325px;
   }
   .about p {
     left: 110px;
     right: 110px;
-    top: 3270px;
+    top: 3370px;
   }
   .about .btn-about {
     left: 110px;
-    top: 3515px;
+    top: 3610px;
   }
 }
 
 @media screen and (max-width: 545px) {
   .about .bg-2 {
-    height: 420px;
+    height: 470px;
     right: 75px;
-    top: 3025px;
+    top: 3095px;
   }
   .about h3 {
     left: 100px;
-    top: 3110px;
+    top: 3210px;
   }
   .about p {
     left: 100px;
     right: 110px;
-    top: 3160px;
+    top: 3260px;
   }
   .about .btn-about {
     left: 100px;
-    top: 3415px;
+    top: 3510px;
   }
 }
 
 @media screen and (max-width: 509px) {
   .about .bg-2 {
     right: 63px;
-    top: 2900px;
+    top: 2990px;
   }
   .about h3 {
     left: 85px;
-    top: 2963px;
+    top: 3113px;
   }
   .about p {
     left: 85px;
     right: 110px;
-    top: 3010px;
+    top: 3160px;
   }
   .about .btn-about {
     left: 85px;
-    top: 3260px;
+    top: 3405px;
   }
 }
 
 @media screen and (max-width: 474px) {
   .about .bg-2 {
     right: 40px;
-    top: 2770px;
+    top: 2870px;
   }
   .about h3 {
     left: 68px;
-    top: 2830px;
+    top: 2980px;
   }
   .about p {
     left: 68px;
     right: 100px;
-    top: 2880px;
+    top: 3030px;
   }
   .about .btn-about {
     left: 68px;
-    top: 3130px;
+    top: 3275spx;
   }
 }
 
 @media screen and (max-width: 439px) {
   .about .bg-2 {
     right: 25px;
-    top: 2670px;
+    top: 2770px;
   }
   .about h3 {
     left: 50px;
-    top: 2730px;
+    top: 2880px;
   }
   .about p {
     left: 50px;
     right: 50px;
-    top: 2780px;
+    top: 2930px;
   }
   .about .btn-about {
     left: 50px;
-    top: 3030px;
+    top: 3170px;
   }
 }
 
 @media screen and (max-width: 414px) {
   .about .bg-2 {
     right: 15px;
-    top: 2590px;
+    top: 2690px;
   }
   .about h3 {
     left: 35px;
+    top: 2800px;
+  }
+  .about p {
+    left: 35px;
+    right: 40px;
+    top: 2850px;
+  }
+  .about .btn-about {
+    left: 35px;
+    top: 3085px;
+  }
+}
+
+@media screen and (max-width: 394px) {
+  .about .bg-2 {
+    height: 460px;
+    right: 0px;
+    top: 2630px;
+  }
+  .about h3 {
+    left: 35px;
+    top: 2740px;
+  }
+  .about p {
+    left: 35px;
+    right: 40px;
+    top: 2785px;
+  }
+  .about .btn-about {
+    left: 35px;
+    top: 3030px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .about .bg-2 {
+    top: 2540px;
+  }
+  .about h3 {
     top: 2650px;
   }
   .about p {
@@ -681,81 +721,42 @@
     top: 2700px;
   }
   .about .btn-about {
-    left: 35px;
-    top: 2940px;
-  }
-}
-
-@media screen and (max-width: 394px) {
-  .about .bg-2 {
-    height: 410px;
-    right: 0px;
-    top: 2530px;
-  }
-  .about h3 {
-    left: 35px;
-    top: 2590px;
-  }
-  .about p {
-    left: 35px;
-    right: 40px;
-    top: 2635px;
-  }
-  .about .btn-about {
-    left: 35px;
-    top: 2880px;
-  }
-}
-
-@media screen and (max-width: 365px) {
-  .about .bg-2 {
-    top: 2440px;
-  }
-  .about h3 {
-    top: 2500px;
-  }
-  .about p {
-    left: 35px;
-    right: 40px;
-    top: 2550px;
-  }
-  .about .btn-about {
-    top: 2800px;
+    top: 2945px;
   }
 }
 
 @media screen and (max-width: 340px) {
   .about .bg-2 {
-    top: 2370px;
+    top: 2540px;
   }
   .about h3 {
-    top: 2430px;
+    top: 2645px;
   }
   .about p {
     right: 30px;
-    top: 2480px;
+    top: 2690px;
   }
   .about .btn-about {
-    top: 2730px;
+    top: 2940px;
   }
 }
 
 @media screen and (max-width: 322px) {
   .about .bg-2 {
-    top: 2410px;
+    top: 2510px;
   }
   .about h3 {
     left: 28px;
-    top: 2468px;
+    top: 2618px;
   }
   .about p {
     left: 28px;
     right: 25px;
-    top: 2510px;
+    top: 2660px;
   }
   .about .btn-about {
     left: 28px;
-    top: 2760px;
+    top: 2910px;
   }
 }
 
