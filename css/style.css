@@ -889,12 +889,12 @@
 .all .pro .card-body h6 {
   color: white;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .all .pro .card-body p {
   color: white;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 @media screen and (max-width: 375px) {
@@ -907,7 +907,7 @@
   font-weight: bold;
 }
 
-.detail .h5 {
+.detail .h6 {
   font-weight: bolder;
 }
 
