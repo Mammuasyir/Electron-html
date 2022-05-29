@@ -817,6 +817,13 @@
         align-items: center; 
     }
 } 
+@media screen and (max-width: 767px) {
+    .mitra{
+        .no{
+            display: none !important;
+        }
+    }
+}
 @media screen and (min-width: 426px) {
     .mitra {
         h2{
@@ -835,9 +842,6 @@
         }
         .card-mitra{
             height:12rem;
-        }
-        .no{
-            display: none !important;
         }
     }
 }
